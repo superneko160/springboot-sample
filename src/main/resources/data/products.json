@@ -1,0 +1,84 @@
+{
+  "products": [
+    {
+      "id": "P001",
+      "name": "ワイヤレスイヤホン",
+      "category": "electronics",
+      "price": 12800,
+      "stock": 150,
+      "description": "ノイズキャンセリング機能搭載のワイヤレスイヤホン。最大30時間再生可能。",
+      "tags": ["audio", "wireless", "noise-cancelling"],
+      "imageUrl": "https://example.com/images/P001.jpg"
+    },
+    {
+      "id": "P002",
+      "name": "メカニカルキーボード",
+      "category": "electronics",
+      "price": 9800,
+      "stock": 80,
+      "description": "青軸採用のメカニカルキーボード。テンキーレスでコンパクト設計。",
+      "tags": ["keyboard", "mechanical", "gaming"],
+      "imageUrl": "https://example.com/images/P002.jpg"
+    },
+    {
+      "id": "P003",
+      "name": "スタンディングデスク",
+      "category": "furniture",
+      "price": 45000,
+      "stock": 30,
+      "description": "電動昇降式スタンディングデスク。天板サイズ140×70cm。",
+      "tags": ["desk", "standing", "electric"],
+      "imageUrl": "https://example.com/images/P003.jpg"
+    },
+    {
+      "id": "P004",
+      "name": "ステンレスボトル",
+      "category": "daily_goods",
+      "price": 3200,
+      "stock": 300,
+      "description": "真空二重構造のステンレスボトル。500ml。保冷・保温24時間対応。",
+      "tags": ["bottle", "stainless", "eco"],
+      "imageUrl": "https://example.com/images/P004.jpg"
+    },
+    {
+      "id": "P005",
+      "name": "ヨガマット",
+      "category": "sports",
+      "price": 4500,
+      "stock": 200,
+      "description": "厚さ6mmの滑り止め加工ヨガマット。収納ストラップ付き。",
+      "tags": ["yoga", "fitness", "mat"],
+      "imageUrl": "https://example.com/images/P005.jpg"
+    },
+    {
+      "id": "P006",
+      "name": "ポータブルモニター",
+      "category": "electronics",
+      "price": 28000,
+      "stock": 50,
+      "description": "15.6インチのUSB-C接続ポータブルモニター。フルHD対応。",
+      "tags": ["monitor", "portable", "usb-c"],
+      "imageUrl": "https://example.com/images/P006.jpg"
+    },
+    {
+      "id": "P007",
+      "name": "アロマディフューザー",
+      "category": "daily_goods",
+      "price": 5800,
+      "stock": 120,
+      "description": "超音波式アロマディフューザー。タイマー機能付き。静音設計。",
+      "tags": ["aroma", "relax", "humidifier"],
+      "imageUrl": "https://example.com/images/P007.jpg"
+    },
+    {
+      "id": "P008",
+      "name": "プロテインシェイカー",
+      "category": "sports",
+      "price": 1500,
+      "stock": 400,
+      "description": "BPAフリーのプロテインシェイカー。600ml。目盛り付き。",
+      "tags": ["shaker", "fitness", "protein"],
+      "imageUrl": "https://example.com/images/P008.jpg"
+    }
+  ]
+}
