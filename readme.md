@@ -116,7 +116,7 @@ println(price) // 12800
 - JDK25インストール
 - JDK25環境変数（PATH）の設定
 - [spring initializr](https://start.spring.io/)でひな形をダウンロード
-- IntelJでダウンロードしたひな形を開く
+- IntelliJ IDEAでダウンロードしたひな形を開く
 - `build.gradle.kts` に `implementation("org.springframework.boot:spring-boot-starter-web")` を追記
 - `HelloWolrdContller.kt` を追加
 - `SpringbootSampleApplication.kt` でファイルを実行
