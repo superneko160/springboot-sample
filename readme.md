@@ -121,7 +121,7 @@ println(price) // 12800
 - `HelloWolrdContller.kt` を追加
 - `SpringbootSampleApplication.kt` でファイルを実行
 - `curl` でリクエスト送り `Hello World` が返ってくれば成功
-- 
+
 ## Reference
 
 - [ハンズオンで学ぶサーバーサイド Kotlin（Spring Boot&Arrow）v2.2.1](https://zenn.dev/msksgm/books/implementing-server-side-kotlin-development/viewer/chapter-02-02-spring-intro-hello-world)
