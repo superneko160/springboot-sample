@@ -1,5 +1,19 @@
 # Spring Boot with Kotlin
 
+## Setup
+
+### データベース設定（MySQL）
+
+`resources/application.properties` でDB名、DBユーザ名、DBパスワードを変更
+
+```
+spring.datasource.url=jdbc:mysql://localhost:3306/dbname?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=12345
+```
+
+`resources/data/products.sql` をインポートしてデータ挿入
+
 ## Usage
 
 ### ハローワールド
@@ -29,6 +43,13 @@ curl --location --request GET 'http://localhost:8080/api/products/category/furni
 curl --location --request GET 'http://localhost:8080/api/products/category/sports'
 curl --location --request GET 'http://localhost:8080/api/products/category/daily_goods'
 ```
+
+### リソースの切替
+
+商品情報をJSONからではなくデータベース（MySQL）から取得する
+
+- `service/JsonProductService.kt` の `@Primary` を消去
+- `service/MySqlProductService.kt` に `@Primary` を追加
 
 ## Note
 
